@@ -1,0 +1,3 @@
+entry-points:
+  all-dungeons: ad
+  ad: /routes/all-dungeons/project.yaml

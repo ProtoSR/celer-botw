@@ -1,0 +1,12 @@
+title: All Dungeons
+version: v1.0.0
+config:
+- use: Pistonight/celer-presets/botw/full.yaml
+- use: ../../common/config.yaml
+- use: ./config.yaml
+- plugins:
+  - use: botw-ability-unstable
+    with:
+      estimate-recharge: true
+route:
+  use: ./main.yaml

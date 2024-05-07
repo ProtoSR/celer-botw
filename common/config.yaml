@@ -1,0 +1,5 @@
+includes:
+- use: ./icons.yaml
+- use: ./tags.yaml
+- use: ./presets.yaml
+- use: ./plugins.yaml

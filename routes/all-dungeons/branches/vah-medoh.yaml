@@ -1,0 +1,55 @@
+- _Equipment::Weapon<Boko Club>:
+    comment: Bomb Bokoblin
+    color: LimeGreen
+    coord: [-811.41, 221.27, 1958.06]
+- .movement(BLSS to Castle Balcony)
+- .ist(Drop and Pickup):
+    icon: material
+    icon-map: null
+    comment: Peppers and Shrooms
+- _Chest<3 Ancient Arrows>:
+    coord: [-254.00, 209.67, -742.37]
+- _Equipment::Bow<Royal Bow>:
+    icon-map: null
+- _Equipment::Bow<5 Arrows>:
+    icon-map: null
+- .movement(W + W)
+- .movement(BLSS to Great Fairy Fountain)
+- _Material::Count<Fairy,3>:
+    comment: ""
+    coord: [-3545.92, 295.03, -760.21]
+- _Material::Count<Mighty Thistle,3>:
+    comment: ""
+    coord: [-3534.30, 292.78, -764.30]
+- .movement(N)
+- _Equipment::Weapon<Royal Claymore>:
+    coord: [-3554.00, 331.55, -1047.30]
+- .movement(<N)
+- _Npc::Rito<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+- _Npc::Rito<Saki>:
+    comment: Revali Memory
+    counter: .split-normal(SPLIT)
+    split-name: Rito Village
+    coord: [-3606.64, 323.62, -1823.03]
+- .movement(Jump down to General Store)
+- _IST<IST>:
+    comment: .link([IST Simulator]https://ist.itntpiston.app/?c=H4sIAAAAAAACA5VRy04DMQy85ysiIXHutlw59AEtEo9VU8QBcUhbw1p118HNgpavJ2mC1K3aAzePH%2BPx%2BK5Gj5bwB3ShDVkP%2Bkobh4L%2BSZYhNyVcg6gp%2BABGvGHjwEqOx9TEnjHZdssSKRZiv4BAdiP%2BDnDOraV92NOPLFtLQ5EAB3pYrxBqn2ChS%2Fb3uH4lfIfrQa%2F3lhfOm2UbmktwDiQEs5bQ1qYS5q3u61uLEuuLCneeQKsLbbwVr2cgoG4%2BG3RJwp9CZYI8NRF28VyHqzZTF13qQj%2FgR%2BXbTKxe0FfaEnW7YuKQJOIkKUZdhpGA3URvif1OlbjaNC5ccDjePz7vhIZsyb8G0%2BpBXp2PT4af%2F5iaXJbnP9419bmGE1bPgdiulamY4yv3n07%2Bp8ov20GexXsCAAA%3D)
+    coord: [-3643.01, 290.64, -1823.43]
+- _Shop<General Store>:
+    comment: Sell 9 Ruby after IST
+- .movement(<N)
+- _Npc::Rito<Teba>:
+    coord: [-3798.52, 267.35, -2314.14]
+- _Chest<Falcon Bow>:
+    icon-map: null
+    comment: After Minigame
+- _DivineBeast::Medoh::Enter
+- .boss(Windblight Ganon):
+    icon: boss
+    icon-map: null
+- _DivineBeast::Medoh::Done
+- _Npc::Rito<Kaneli>:
+    icon-map: null
+- _Chest::Special<Great Eagle Bow>:
+    icon-map: null

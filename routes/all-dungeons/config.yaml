@@ -1,0 +1,81 @@
+icons:
+  shop: https://icons.pistonite.org/icon/location.house.circle.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  npc-rito: https://icons.pistonite.org/icon/character.teba.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  enter-medoh: https://icons.pistonite.org/icon/location.medoh.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  medoh: https://icons.pistonite.org/icon/location.medoh.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+  npc-gerudo: https://icons.pistonite.org/icon/character.riju.none.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+  enter-naboris: https://icons.pistonite.org/icon/location.naboris.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  naboris: https://icons.pistonite.org/icon/location.naboris.none.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+  npc-zora-male: https://icons.pistonite.org/icon/character.sidon.none.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  enter-ruta: https://icons.pistonite.org/icon/location.ruta.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  ruta: https://icons.pistonite.org/icon/location.ruta.none.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+  npc-goron: https://icons.pistonite.org/icon/character.yunobo.none.d57b69.fec1d3.d57b69.fdfdfd.d57b69.fdfdfd.png
+  enter-rudania: https://icons.pistonite.org/icon/location.rudania.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  rudania: https://icons.pistonite.org/icon/location.rudania.none.d57b69.fec1d3.d57b69.fdfdfd.d57b69.fdfdfd.png
+
+presets:
+  Shop:
+    text: .item($(0))
+    icon: shop
+    icon-map: null
+  _DivineBeast:
+    _Medoh:
+      Enter:
+        text: .loc(Enter Vah Medoh)
+        icon: enter-medoh
+        counter: .split-normal(SPLIT)
+        coord: [-3620.00, 739.95, -2110.00]
+      Done:
+        text: .item(Revali's Gale)
+        icon: medoh
+        icon-map: null
+        counter: .split-normal(SPLIT)
+        split-name: Vah Medoh
+        movements:
+          - to: [-3627.20, 323.57, -1830.81]
+            warp: true
+    _Naboris:
+      Enter:
+        text: .loc(Enter Vah Naboris)
+        icon: enter-naboris
+        counter: .split-normal(SPLIT)
+        coord: [-2754.62, 112.53, 3749.44]
+      Done:
+        text: .item(Urbosa's Fury)
+        icon: naboris
+        icon-map: null
+        counter: .split-normal(SPLIT)
+        split-name: Vah Naboris
+        movements:
+          - to: [-3892.04, 157.48, 2968.14]
+            warp: true
+    _Ruta:
+      Enter:
+        text: .loc(Enter Vah Ruta)
+        icon: enter-ruta
+        counter: .split-normal(SPLIT)
+        coord: [3662.40, 315.66, -175.42]
+      Done:
+        text: .item(Mipha's Grace)
+        icon: ruta
+        icon-map: null
+        counter: .split-normal(SPLIT)
+        split-name: Vah Ruta
+        movements:
+          - to: [3303.90, 245.31, -496.23]
+            warp: true  
+    _Rudania:
+      Enter:
+        text: .loc(Enter Vah Rudania)
+        icon: enter-rudania
+        counter: .split-normal(SPLIT)
+        coord: [2794.50, 774.84, -2657.93]
+      Done:
+        text: .item(Daruk's Protection)
+        icon: rudania
+        icon-map: null
+        counter: .split-normal(SPLIT)
+        split-name: Vah Rudania
+        movements:
+          - to: [1713.95, 498.05, -2446.92]
+            warp: true          

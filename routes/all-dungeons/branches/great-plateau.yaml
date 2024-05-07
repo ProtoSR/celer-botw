@@ -1,0 +1,46 @@
+- .loc(SOR Clip):
+    icon: sor
+    comment: Don't get TOD
+    color: White
+- .movement(Run to Boko Camp)
+- _Material::Count<Spicy Pepper,3>:
+    comment: Keep at least 2 for IST
+    coord: [-965.30, 238.52, 1956.67]
+- _Equipment::Shield<Pot Lid>:
+    coord: [-952.34, 238.33, 1959.44]
+- _Equipment::Weapon<Boko Spear>:
+    icon-map: null
+- _Material<3 Hylian Shroom>:
+    icon-map: null
+    comment: Keep at least 2 for IST
+- .movement(Clip into Temple of Time)
+- _Chest<Traveler's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+- _Equipment::Bow<5 Arrows>:
+    icon-map: null
+    comment: Break Pot
+- .movement(BLSS to Bombs)
+- _Shrine::JaBaij:
+    text: .loc(Bombs)
+    counter: .split-normal(SPLIT)
+- _Npc<Old Man>:
+    icon-map: null
+    comment: Text options 2-1-1-2
+- .movement(BLSS to Magnesis)
+- _Chest<Ruby>:
+    icon-map: null
+- _Shrine::OmanAu:
+    text: .loc(Magnesis)
+    counter: .split-normal(SPLIT)
+- .movement(BLSS to Tree)
+- .movement(Tree WB):
+    coord: [-839,2273.5]
+- _Shrine::OwaDaim:
+    text: .loc(Stasis)
+    counter: .split-normal(SPLIT)
+- .movement(BLSS to Cryonis)
+- _Shrine::KehNamut:
+    text: .loc(Cryonis)
+    counter: .split-normal(SPLIT)
+- .movement(BLSS to Temple of Time)
+- _Plateau

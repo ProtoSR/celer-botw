@@ -1,0 +1,49 @@
+- .movement(BLSS to Gerudo Town):
+    color: Yellow
+    movements:
+        - to: [-2584,-1012]
+        - to: [-1860,416]
+        - to: [-1904,1576]
+- _Npc<Benja>:
+    coord: [-3804.64, 149.50, 2818.36]
+- .movement(<E + <E)
+- _Npc::Gerudo<Vilia>:
+    comment: Buy Gerudo Clothing
+    coord: [-3259.27, 163.93, 2611.54]
+- .movement(<W + <W)
+- _Shop<Arrow Shop>:
+    comment: Buy 30 Shock Arrows & 10 Ice Arrows
+- _Npc::Gerudo<Riju>:
+    counter: .split-normal(SPLIT)
+    split-name: Gerudo Town
+    coord: [-3892.04, 157.48, 2968.14]
+- .movement(<N)
+- .movement(Boko BTB + Moblin BTB):
+    coord: [-4132.90, 159.34, 2598.46]
+- .movement(Clip in to Yiga Hideout)
+- _Equipment::Bow<Duplex Bow>:
+    coord: [-3510.46, 442.51, 1297.31]
+- .boss(Master Kohga):
+    icon: boss
+- _Chest::Special<Thunder Helm>:
+    counter: .split-normal(SPLIT)
+    coord: [-3451.00, 440.69, 1331.50]
+- .movement(E + W)
+- .movement(BLSS to Gerudo Town)
+- _Npc::Gerudo<Riju>:
+    comment: Urbosa Memory
+    coord: [-3868.85, 166.67, 2948.96]
+- .movement(W>)
+- _Npc::Gerudo<Riju>:
+    comment: At Outpost
+    coord: [-3420.68, 189.82, 3118.97]
+- .movement(Ride Sand Seal + N)
+- .movement(BLSS to Naboris)
+- _DivineBeast::Naboris::Enter
+- Use .gale() in Naboris:
+    gale: 2
+- .boss(Thunderblight Ganon):
+    icon: boss
+    icon-map: null
+- _DivineBeast::Naboris::Done
+- _Warp::Beast::Naboris

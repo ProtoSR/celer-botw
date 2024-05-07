@@ -1,0 +1,19 @@
+presets:
+  Plateau:
+    text: .loc(Great Plateau)
+    icon: king
+    counter: .split-normal(SPLIT)
+    coord: [-812, 1966.10]
+  Calamity:
+    text: .boss(Calamity Ganon)
+    icon: calamity
+    counter: .split-normal(SPLIT)
+    coord: [-254.00, 191.01, -1061.37]
+  DarkBeast:
+    text: .boss(Dark Beast Ganon)
+    icon: darkbeast
+    icon-map: null
+    counter: .split-normal(SPLIT)
+  IST:
+    text: .ist($(0))
+    icon: ist

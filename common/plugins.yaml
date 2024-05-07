@@ -1,0 +1,3 @@
+plugins:
+- use: variables
+- use: link

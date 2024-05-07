@@ -1,0 +1,14 @@
+tags:
+  split-normal:
+    background: Black
+    color: White
+    split-type: Recommended Splits
+  movement:
+    color: DodgerBlue
+    italic: true
+  ist:
+    color: Red
+    italic: true
+
+splits:
+  - split-normal

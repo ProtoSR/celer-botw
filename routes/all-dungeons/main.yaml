@@ -1,0 +1,12 @@
+- Great Plateau:
+  - use: ./branches/great-plateau.yaml
+- Vah Medoh:
+  - use: ./branches/vah-medoh.yaml
+- Vah Naboris:
+  - use: ./branches/vah-naboris.yaml
+- Vah Ruta:
+  - use: ./branches/vah-ruta.yaml
+- Vah Rudania:
+  - use: ./branches/vah-rudania.yaml
+- Calamity Ganon:
+  - use: ./branches/calamity-ganon.yaml

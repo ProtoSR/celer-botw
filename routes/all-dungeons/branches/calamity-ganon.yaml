@@ -1,0 +1,7 @@
+- .movement(BLSS to Sanctum)
+- _Calamity:
+    color: Purple
+    comment: Use .fury()
+    fury: 2
+- _DarkBeast:
+    comment: Skip Bow of Light
